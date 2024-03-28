@@ -1,0 +1,75 @@
+@media (max-width: 991.99px) {
+    #activities-section .acti-bottom-text {
+        font-size: 106px;
+    }
+    #extreme-sports {
+        padding-top: 70px;
+    }
+    #extreme-sports .ex-title {
+        font-size: 36px;
+        margin-bottom: 28px;
+        margin-top: 30px;
+    }
+    #extreme-sports .ex-box h3 {
+        font-size: 23px;
+    }
+    #extreme-sports .ex-box h4 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    #extreme-sports .ex-box p {
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+    #extreme-sports .ex-box p i {
+        margin-top: 10px;
+    }
+    .foot-img{
+        display: none;
+    }
+    #footer-section .footer-right {
+        padding: 50px;
+    }
+    .footer-right .join-us p {
+        max-width: 100%;
+    }
+    .site-btn {
+        margin-bottom: 40px;
+    }
+    #footer-section .footer-contact hr {
+        height: 2px;
+        width: 50px;
+        display: block;
+        margin: auto;
+    }
+}
+@media (max-width: 767.99px) {
+    #hero-section {
+        padding-top: 172px;
+    }
+    #hero-section .hero-slogan {
+        font-size: 46px;
+    }
+    #join-us h2 {
+        font-size: 46px;
+    }
+    #activities-section .left h2 {
+        font-size: 46px;
+    }
+    #activities-section .acti-bottom-text {
+        font-size: 72px;
+    }
+    #extreme-sports .overlay-holder{
+        bottom: 0px;
+    }
+    #extreme-sports .ex-des {
+        font-size: 22px;
+    }
+    #choose-section .choose-top h2 {
+        font-size: 36px;
+    }
+    #news-section h2 {
+        font-size: 36px;
+    }
+}
+

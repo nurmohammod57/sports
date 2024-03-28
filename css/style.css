@@ -1,0 +1,430 @@
+/* ------------------------------------------------- Common CSS Start */
+:root{
+    --yellow-color:#FF9600;
+    --white-color: #ffffff;
+    --blue-color: #0C3543;
+    --ibm-font: "IBM Plex Sans", sans-serif;
+    --yellowtail-font: "Yellowtail", cursive;
+    --arizonia-font: "Arizonia", cursive;
+}
+ul{
+    padding: 0;
+}
+li{
+    list-style-type: none;
+}
+p{
+    font-family: var(--ibm-font);
+    font-size: 18px;
+}
+a{
+    text-decoration: none;
+}
+.site-btn{
+    font-family: var(--ibm-font);
+    font-size: 18px;
+    font-weight: 700;
+    background: var(--yellow-color);
+    display: inline-block;
+    color: var(--white-color);
+    border-radius: 4px;
+    width: 160px;
+    padding: 18px 0;
+    text-align: center;
+    border: 1px solid transparent;
+    transition: .4s;
+}
+.site-btn:hover{
+    background: var(--white-color);
+    color: var(--yellow-color);
+    border: 1px solid #FF9600;
+}
+/* ------------------------------------------------- Common CSS End */
+nav{
+    position: absolute;
+    width: 100%;
+}
+.navbar-brand img{
+    width: 170px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: var(--white-color);
+    font-family: var(--ibm-font);
+    font-size: 18px;
+    font-weight: 700;
+}
+.navbar-light .navbar-nav .nav-link i{
+    margin-left: 8px;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: var(--yellow-color);
+}
+/* ------------------------------------------------- Nav Start */
+#hero-section{
+    background: url(../img/hero-background.png) no-repeat center/cover;
+    padding: 291px 0 155px;
+}
+#hero-section .hero-slogan{
+    font-size: 70px;
+    font-weight: 700;
+    color: var(--white-color);
+    font-family: var(--ibm-font);
+    text-align: center;
+    max-width: 819px;
+    margin: 0 auto;
+}
+#hero-section .hero-btns{
+    margin-top: 55px;
+}
+/* ------------------------------------------------- Nav Start */
+#join-us{
+    padding: 72px 0 198px;
+}
+#join-us h5{
+    font-size: 30px;
+    color: #14B9F1;
+    font-family: var(--arizonia-font);
+    margin-bottom: 5px;
+}
+#join-us h2{
+    font-size: 54px;
+    color: #222222;
+    font-family: var(--ibm-font);
+    font-weight: 700;
+    margin-bottom: 27px;
+}
+#join-us hr{
+    height: 2px;
+    width: 80px;
+    background: #A0A0A0;
+    margin-bottom: 35px;
+}
+#join-us ul{
+    margin-bottom: 40px;
+}
+#join-us ul li i{
+    color: #222222;
+    margin-right: 23px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #EEEEEE;
+    line-height: 30px;
+    text-align: center;
+}
+
+#join-us .boxes {
+    margin-top: 85px;
+}
+#join-us .box {
+    padding: 40px 0 50px;
+    border-radius: 8px;
+}
+#join-us .box-1{
+    background: url(../img/adventure-box.png) no-repeat center #FFF4E5;
+}
+#join-us .box-2{
+    background: url(../img/adventure-box.png) no-repeat center #E7FDE9;
+}
+#join-us .box-3{
+    background: url(../img/adventure-box.png) no-repeat center #F2F2FD;
+}
+#join-us .box-4{
+    background: url(../img/adventure-box.png) no-repeat center #FDF1F5;
+}
+/* ---------------------------------------------------activities-section */
+#activities-section{
+    background: url(../img/Extrem-sports.png) no-repeat bottom #0C3543;
+    color: var(--white-color);
+    padding: 102px 0;
+}
+#activities-section .left h5{
+    font-size: 30px;
+    color: var(--yellow-color);
+    font-family: var(--arizonia-font);
+    margin-bottom: 5px;
+}
+#activities-section .left h2{
+    font-size: 54px;
+    font-family: var(--ibm-font);
+    font-weight: 700;
+    margin-bottom: 27px;
+}
+#activities-section .left hr{
+    height: 2px;
+    width: 80px;
+    margin-bottom: 35px;
+    background: var(--white-color);
+}
+#activities-section .card{
+    background: #0F4152;
+}
+#activities-section .card h5{
+    font-size: 30px;
+    font-family: var(--ibm-font);
+    font-weight: 700;
+}
+#activities-section .acti-bottom-text{
+    font-family: var(--arizonia-font);
+    font-size: 160px;
+    text-align: center;
+    margin-top: 63px;
+}
+/* -----------------------------------------extreme-sports */
+#extreme-sports{
+    background: #FF9600;
+    padding-top: 110px;
+    overflow: hidden;
+}
+#extreme-sports .ex-title{
+    font-size: 54px;
+    font-weight: 700;
+    color: var(--white-color);
+    margin-bottom: 46px;
+    font-family: var(--ibm-font);
+}
+#extreme-sports .ex-des{
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--white-color);
+    margin-bottom: 60px;
+    font-family: var(--ibm-font);
+}
+#extreme-sports .ex-btns .btn-1{
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--white-color);
+    font-family: var(--ibm-font);
+    background: #0C3543;
+    border: 1px solid transparent;
+    padding: 20px 30px;
+    display: inline-block;
+    margin-right: 16px;
+    border-radius: 4px;
+}
+#extreme-sports .ex-btns .btn-2{
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--white-color);
+    font-family: var(--ibm-font);
+    border: 1px solid white;
+    padding: 20px 30px;
+    display: inline-block;
+    border-radius: 4px;
+}
+#extreme-sports .ex-btns .btn-2 i{
+    margin-right: 8px;
+}
+#extreme-sports .ex-box h3{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: var(--ibm-font);
+    color: var(--white-color);
+    margin-bottom: 19px;
+}
+#extreme-sports .ex-bottom{
+    position: relative;
+    margin-top: 60px;
+}
+#extreme-sports .overlay-holder{
+    position: relative;
+    bottom: -86px;
+    transition: .4s;
+}
+#extreme-sports .overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 30px;
+}
+#extreme-sports .ex-box h4{
+    font-size: 30px;
+    font-weight: 400;
+    font-family: var(--ibm-font);
+    color: var(--white-color);
+    margin-bottom: 45px;
+}
+#extreme-sports .ex-box hr{
+    height: 1px;
+    background: #717171;
+    margin-bottom: 24px;
+}
+#extreme-sports .ex-box p{
+    color: #A0A0A0;
+}
+#extreme-sports .ex-box p i{
+    background: var(--white-color);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    line-height: 30px;
+    text-align: center;
+    margin-left: 15px;
+}
+#extreme-sports .overlay-holder:hover{
+    bottom: 0px;
+}
+/* ------------------------------------------------ choose */
+#choose-section{
+    padding: 160px 0 54px;
+}
+#choose-section .choose-top h5{
+    font-size: 30px;
+    color: #14B9F1;
+    font-family: var(--arizonia-font);
+    margin-bottom: 5px;
+}
+#choose-section .choose-top h2{
+    font-size: 54px;
+    color: #222222;
+    font-family: var(--ibm-font);
+    font-weight: 700;
+    margin-bottom: 27px;
+}
+#choose-section .choose-top hr{
+    height: 2px;
+    width: 80px;
+    background: #A0A0A0;
+    margin-bottom: 35px;
+    margin: auto;
+}
+#choose-section .choose-boxes{
+    margin-top: 50px;
+}
+#choose-section .box{
+    padding: 24px;
+}
+#choose-section .box img{
+    margin-bottom: 46px;
+    padding: 22px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+#choose-section .box h4{
+    font-family: var(--ibm-font);
+    font-size: 24px;
+    font-weight: 700;
+    color: #222222;
+}
+#choose-section .box p{
+    color: #222222;
+}
+#choose-section .box-1 img{
+    background: #F2F2FD;
+}
+#choose-section .box-2 img{
+    background: #E7FDE9;
+}
+#choose-section .box-3 img{
+    background: #FFF4E5;
+}
+#choose-section .box-4 img{
+    background: #FDF1F5;
+}
+/* -------------------------------------------------- news-section */
+#news-section{
+    background: #F7F7F7;
+    padding: 101px 0;
+}
+#news-section .news-top{
+    margin-bottom: 70px;
+}
+#news-section h5{
+    font-size: 30px;
+    color: var(--yellow-color);
+    font-family: var(--arizonia-font);
+    margin-bottom: 5px;
+}
+#news-section h2{
+    font-size: 54px;
+    color: #222222;
+    font-family: var(--ibm-font);
+    font-weight: 700;
+    margin-bottom: 27px;
+}
+#news-section .news-left hr{
+    height: 2px;
+    width: 80px;
+    background: #A0A0A0;
+}
+#news-section .news-right p{
+    color: #000000;
+}
+#news-section .box{
+    background: var(--white-color);
+    border-radius: 0 0 8px 8px;
+}
+#news-section .box-body{
+    padding: 30px;
+    border-radius: 0 0 8px 8px;
+}
+#news-section .box img{
+    border-radius: 8px;
+}
+#news-section .box-body h4{
+    font-size: 28px;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 20px;
+}
+#news-section .box-body p{
+    color: #000000;
+    margin-bottom: 15px;
+}
+#news-section .box hr{
+    background: #d0caca;
+    height: 1px;
+    margin-bottom: 30px;
+}
+#news-section .box a{
+    color: var(--yellow-color);
+    font-family: var(--ibm-font);
+    font-weight: 700;
+    margin-bottom: 30px;
+    display: inline-block;
+}
+/* -------------------------------------------------  brand-logo-section */
+#brand-logo-section{
+    padding: 37px 0;
+}
+/* --------------------------------------------------------- footer-section */
+#footer-section .footer-right{
+    background: #0C3543;
+    padding-left: 50px;
+}
+#footer-section .footer-right img{
+    margin: 80px 0 39px;
+}
+.footer-right .join-us p{
+    max-width: 80%;
+}
+.footer-right .join-us{
+    margin-bottom: 70px;
+}
+.footer-right hr{
+    height: 1px;
+    background: rgba(196, 196, 196, .5);
+    margin-bottom: 67px;
+}
+#footer-section .footer-contact h3{
+    font-family: var(--ibm-font);
+    font-size: 30px;
+    font-weight: 700;
+}
+#footer-section .footer-contact hr{
+    height: 2px;
+    width: 50px;
+    background: var(--white-color);
+}
+#footer-section .footer-contact .right{
+    margin-bottom: 72px;
+}
+#footer-section .footer-contact .right p{
+    margin-bottom: 24px;
+}
