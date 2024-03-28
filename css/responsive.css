@@ -1,4 +1,16 @@
 @media (max-width: 991.99px) {
+    nav .navbar-collapse{
+        background: #0C3543;
+        padding: 40px;
+    }
+    nav .navbar-toggler i{
+        color: white;
+        padding: 5px;
+    }
+    .navbar-light .navbar-toggler {
+        color: #FF9600;
+        border-color: #FF9600;
+    }
     #activities-section .acti-bottom-text {
         font-size: 106px;
     }
